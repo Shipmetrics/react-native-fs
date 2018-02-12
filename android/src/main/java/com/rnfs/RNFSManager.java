@@ -747,6 +747,7 @@ public class RNFSManager extends ReactContextBaseJavaModule {
     constants.put(RNFSTemporaryDirectoryPath, this.getReactApplicationContext().getCacheDir().getAbsolutePath());
     constants.put(RNFSPicturesDirectoryPath, Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES).getAbsolutePath());
     constants.put(RNFSCachesDirectoryPath, this.getReactApplicationContext().getCacheDir().getAbsolutePath());
+    constants.put(RNFSExternalCachesDirectoryPath, this.getReactApplicationContext().getExternalCacheDir().getAbsolutePath());
     constants.put(RNFSFileTypeRegular, 0);
     constants.put(RNFSFileTypeDirectory, 1);
 
